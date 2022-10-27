@@ -1,6 +1,23 @@
 /*!
  * Mundana Jekyll Theme (https://www.wowthemes.net/mundana-jekyll-theme/)
  */
+.center {
+	text-align: center !important;
+}
+
+.rules-text {
+	padding: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	font-size: 1rem;
+	color: #2e424e;
+	background-color: #d6f1d4 !important;
+	border-radius: 10px;
+}
+
+.rules-text h2 {
+	font-size: 1.5rem;
+}
 
 body {
 	overflow-x:hidden;
@@ -31,10 +48,10 @@ a,a:hover {
 	text-decoration:none;
 }
 a {
-	color:#03a87c;
+	color: #ea2f65 !important;;
 }
 a.text-dark:hover {
-	color:#03a87c !important;
+	color:#982344 !important;
 }
 .c-pointer:hover {
 	cursor:pointer;
@@ -205,7 +222,7 @@ a.text-dark:hover {
 .navbar-brand {
 	margin-right:2rem;
 	font-size:1.55rem;
-    font-family:"Georgia","Times New Roman",serif;
+    font-family: sans-serif;
 }
 .dropdown-item {
 	font-weight:400;
@@ -480,9 +497,9 @@ a.text-dark:hover {
 	color:#e6e6e6;
 }
 .alert-warning {
-	color:#fff;
-	background-color:#ffde03;
-	border-color:#ffde03;
+	color:#57512e;
+	background-color:#fffbe5 !important;
+	border-color:#fffbe5;
 }
 .alert-warning hr {
 	border-top-color:#e9ca00;
@@ -682,13 +699,7 @@ article blockquote:before {
 	float:left;
 	line-height:1;
 }
-article:first-letter {
-	float:left;
-	font-size:5em;
-	line-height:1;
-	margin:0 .2em 0 0;
-	vertical-align:top;
-}
+
 article h1,article h2,article h3,article h4,article h5,article h6,article .h1,article .h2,article .h3,article .h4,article .h5,article .h6 {
 	margin-bottom:2rem;
 	margin-top:2rem;
@@ -789,12 +800,12 @@ a.a2a_i, i.a2a_i, .a2a_menu a.a2a_i:visited, .a2a_menu a.a2a_more {
 div.a2a_full_footer {display:none;}
 @media (min-width: 1920px) {
 	html {font-size:17px;}
-	.container, .container-lg {    
+	.container, .container-lg {
 	 width: 1280px;
 	 max-width: 1280px;
 	 }
-	 h6,.h6 { 
-		 font-size: 1.1rem; 
+	 h6,.h6 {
+		 font-size: 1.1rem;
 	 }
 	 article {
 		 font-size:1.24rem;
@@ -803,4 +814,34 @@ div.a2a_full_footer {display:none;}
 		 height:280px !Important;
 	 }
  }
- 
+
+
+table {
+		border-collapse: collapse;
+		border-spacing: 0;
+		width: 100%;
+}
+table td, table th {
+		border-bottom: 1px solid #ddd;
+		padding: 8px;
+}
+a {
+		color: #b821f3;
+		text-decoration: none;
+}
+a:hover {
+		color: #75169a;
+		text-decoration: underline;
+}
+p:has(iframe) {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.grid-section{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 1rem;
+}

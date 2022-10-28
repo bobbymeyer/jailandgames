@@ -14,7 +14,7 @@ image: assets/images/equipment/weapons.png
 |Club         |	1 sp    |	1d4 bludgeoning |	2 lb.   |	Light       |
 |Dagger       |	2 gp	  | 1d4 piercing    |	1 lb.	  | Finesse, light, thrown (range 20/60)|
 |Greatclub    |	2 sp	  | 1d8 bludgeoning	| 10 lb.	| Two-handed |
-|Handaxe      |	5 gp    |	1d6 slashing    |	2 lb.   |	Light, thrown (range 20/60)|
+|Hatchet      |	5 gp    |	1d6 slashing    |	2 lb.   |	Light, thrown (range 20/60)|
 |Javelin      |	5 sp    |	1d6 piercing	  | 2 lb.	  | Thrown (range 30/120)|
 |Light Hammer |	2 gp    |	1d4 bludgeoning	| 2 lb.	  | Light, thrown (range 20/60)|
 |Mace         |	5 gp    |	1d6 bludgeoning	| 4 lb.	  | |
@@ -26,7 +26,7 @@ image: assets/images/equipment/weapons.png
 
 | Name            | Cost    |	Damage          |  Weight	| Properties |
 |-----------------|--------:|:----------------|:-------:|:-----------|
-|Crossbow, light  | 25 gp   |	1d8 piercing    |	5 lb.	  | Ammunition (range 80/320), loading, two-handed|
+|Wheellock Pistol | 25 gp   |	1d8 piercing    |	5 lb.	  | Ammunition (range 80/320), loading, two-handed|
 |Dart             |	5 cp    |	1d4 piercing	  | 1/4 lb.	| Finesse, thrown (range 20/60)|
 |Shortbow         |	25 gp   |	1d6 piercing	  | 2 lb.	  | Ammunition (range 80/320), two-handed|
 |Sling            |	1 sp    |	1d4 bludgeoning	| —	      | Ammunition (range 30/120)|
@@ -59,7 +59,7 @@ image: assets/images/equipment/weapons.png
 | Name            | Cost    |	Damage          |  Weight	| Properties |
 |-----------------|--------:|:----------------|:-------:|:-----------|
 |Blowgun          |	10 gp   |	1 piercing      |	1 lb.   |	Ammunition (range 25/100), loading|
-|Crossbow, hand   |	75 gp   |	1d6 piercing    |	3 lb.   |	Ammunition (range 30/120), light, loading|
-|Crossbow, heavy  |	50 gp   |	1d10 piercing   |	18 lb.  |	Ammunition (range 100/400), heavy, loading, two-handed|
+|Wheellock Musket |	75 gp   |	1d10 piercing   |	13 lb.   |	Ammunition (range 100/400), heavy, loading, two-handed|
+|Blunderbus       |	100 gp   |	1d12 piercing |	18 lb.  |	Ammunition (range 30/120), heavy, loading, two-handed|
 |Longbow          |	50 gp   |	1d8 piercing    |	2 lb.   |	Ammunition (range 150/600), heavy, two-handed|
 |Net              |	1 gp    |	—	              | 3 lb.   |	Special, thrown (range 5/15)|

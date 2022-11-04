@@ -5,6 +5,35 @@
 	text-align: center !important;
 }
 
+.full-image {
+	width: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.full-image > img{
+	width: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.float-left{
+	float: left;
+	width: 20rem;
+	clear: both;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+}
+
+.float-right{
+	float: right;
+	width: 20rem;
+	clear: both;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+}
+
+.clear { clear: both; }
+
 .rules-text {
 	padding: 1rem;
 	padding-left: 2rem;

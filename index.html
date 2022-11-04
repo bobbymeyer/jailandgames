@@ -13,12 +13,9 @@ description: "Homegrow content for table top contrarians."
 
 
 
-<!-- Begin post excerpts, let's highlight the first 4 posts on top -->
+<!-- Begin post summarys, let's highlight the first 4 posts on top -->
 <div class="row remove-site-content-margin">
 
-<div class="col-md-12 mt-8">
-    <h4 class="font-weight-bold spanborder"><span>Newest Stories</span></h4>
-</div>
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
 {% for post in site.posts %}
 {% if post.tags contains "sticky" %}
@@ -32,8 +29,8 @@ description: "Homegrow content for table top contrarians."
     <h2 class="h4 font-weight-bold">
     <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
     </h2>
-    <p class="excerpt">
-        {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+    <p class="summary">
+        {{ latest_post.summary | strip_html | strip_newlines | truncate: 136 }}
     </p>
     <div>
         <small class="d-block text-muted">
@@ -66,6 +63,9 @@ description: "Homegrow content for table top contrarians."
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
+                        {{ second_post.summary | strip_html | strip_newlines | truncate: 136 }}
+                    </small>
+                    <small class="d-block text-muted">
                         In <span class="catlist">
                         {% for category in second_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
@@ -93,6 +93,9 @@ description: "Homegrow content for table top contrarians."
                     <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
+                        {{ third_post.summary | strip_html | strip_newlines | truncate: 136 }}
+                    </small>
+                    <small class="d-block text-muted">
                         In <span class="catlist">
                         {% for category in third_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
@@ -119,6 +122,9 @@ description: "Homegrow content for table top contrarians."
                     <h2 class="mb-2 h6 font-weight-bold">
                     <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
+                    <small class="d-block text-muted">
+                        {{ fourth_post.summary | strip_html | strip_newlines | truncate: 136 }}
+                    </small>
                     <small class="d-block text-muted">
                         In <span class="catlist">
                         {% for category in fourth_post.categories %}

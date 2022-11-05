@@ -5,9 +5,9 @@ permalink: "/polychrome.html"
 ---
 <div class="container" markdown='1'>
 
-<div class='display-1 font-weight-bold'> Polychrome </div><br>
+<h1 class='align-middle' style='border-top: 0.5rem solid black; text-align: center; border-bottom: 0.5rem solid black; font-size: 7vw; font-weight: 900; letter-spacing: 0.5rem;'>POLYCHROME</h1>
 
-<br>
+<br><br>
 
 <div class="row align-items-center bg-light" markdown='1'>
 <div class="col-md" markdown='1'>
@@ -28,11 +28,32 @@ Oda. A terrible world.
 <br>
 
 ## Races
-There are many intelligent humanoid species on Oda. Humans are by far the most common, numbering in the many millions. Some species are on the verge of extinction, with just hundreds or even dozens of individuals still living.
 <div class='grid-section'>
 {% assign sorted_posts = site.posts | sort:'title' %}
 {% for post in sorted_posts  %}
 {% if post.categories contains "polychrome" and post.categories contains "races" %}
+
+<div class="card" style="">
+  <img class="card-img-top" src='{{site.url}}/{{post.image}}' alt="{{post.title}}">
+  <div class="card-body">
+    <h5 class="card-title">
+      {{post.title}}
+    </h5>
+    <p>{{post.summary}}</p>
+    <a href="{{post.url}}">Read more...</a>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+</div>
+
+---
+
+## Classes
+<div class='grid-section'>
+{% assign sorted_posts = site.posts | sort:'title' %}
+{% for post in sorted_posts  %}
+{% if post.categories contains "polychrome" and post.categories contains "classes" %}
 
 <div class="card" style="">
   <img class="card-img-top" src='{{site.url}}/{{post.image}}' alt="{{post.title}}">

@@ -48,6 +48,22 @@ Oda. A terrible world.
 </div>
 
 ---
+<div class="col-md align-items-center" markdown='1'>
+<div class="row align-items-center bg-light" markdown='1'>
+
+<div class="col-md" markdown='1'>
+![](/assets/images/gods/tredectheon-splash.png)
+</div>
+<div class="col-md" markdown='1'>
+## the Gods of Oda
+There are thousands of heroes, demigods, holy trees, devos, holy monsters and other divine and semi-divine beings worshipped on Oda. However, the Tredectheon, the Thirteen Space Gods of Omorro, have the largest cults.
+
+[Read more...](/gods)
+</div>
+
+</div>
+
+---
 
 ## Classes
 <div class='grid-section'>
@@ -92,18 +108,6 @@ Oda. A terrible world.
 {% endfor %}
 </div>
 
-<div class="row align-items-center bg-light" markdown='1'>
-<div class="col-md" markdown='1'>
-![](/assets/images/gods/tredectheon-splash.png)
-</div>
-<div class="col-md align-items-center" markdown='1'>
 
-## the Gods of Oda
-There are thousands of heroes, demigods, holy trees, devos, holy monsters and other divine and semi-divine beings worshipped on Oda. However, the Tredectheon, the Thirteen Space Gods of Omorro, have the largest cults.
-
-[Read more...](/gods)
-
-</div>
-</div>
 
 <br>

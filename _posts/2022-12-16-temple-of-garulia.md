@@ -22,7 +22,7 @@ The weapons in the statues' hands are real and enchanted, providing a +1 bonus t
 Suddenly, the statues spring to life, transforming into [Stone Golems](https://www.dndbeyond.com/monsters/17025-stone-golem). They are hostile towards the PCs, but they are tasked with protecting this room and will not follow them if they leave the room.
 
 ## Decoy Treasury
-As you enter the room, you see that it is filled with scattered coins, as well as various weapons and pieces of armor. The items are of good quality, but are otherwise unremarkable. An archaeologist might be interested in them, but for the most part, they seem unremarkable.
+As you enter the room, you see that it is filled with scattered coins, as well as various weapons and pieces of armor. The items are old and dusty, but of good quality. An archaeologist might be interested in them, but for the most part, they seem unremarkable. If there was even anything of significant value here, it must have been looted long ago.
 
 One chest remains unopened, sitting in the corner of the room. If you open it, a ghostly figure escapes from within, thanking the players for freeing it. The ghost tells the players of a switch at the bottom of the chest, and suggests that they press it. When the switch is pressed, the false walls surrounding the players drop away, revealing the true treasure hidden within.
 
@@ -37,11 +37,8 @@ If Kas Tona is defeated, the treasures of the temple can be plundered at will. T
 - 1,000 silver pieces
 - 10,000 copper pieces
 - A large ruby worth 500 gold pieces
-- A cleric's spellbook containing the spells Ray of Enfeeblement, Hunger of Hadar Vampiric Touch, Enervation, and Hunger of Garulia.
-- The Armor of Kas Tona.
-
-Hunger of Garulia
-: This spell creates a massive, swirling vortex of dark energy centered on a point within range. The vortex sucks all creatures within 60 feet of it into its swirling maw, dealing 6d6 necrotic damage and potentially killing them.
+- A cleric's spellbook containing the spells Ray of Enfeeblement, Hunger of Hadar Vampiric Touch, Enervation, and [Hunger of Garulia](/hunger-of-garulia).
+- [The Armor of Kas Tona](/armor-of-kas-tona)
 
 ### Kas Tona, High Priest of Garulia
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Condottiero"
 author: ali-bobby
-categories: [ polychrome, subclass ]
+categories: [ polychrome, fighter, subclass ]
 image: assets/images/classes/condottiero.png
 summary: "a Fighter Subclass"
 ---

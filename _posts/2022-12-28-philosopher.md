@@ -6,6 +6,7 @@ categories: [ polychrome, classes ]
 image: assets/images/classes/philosopher.png
 summary: "the Power of Pontification"
 ---
+{% include alpha-warning.html %}
 # Philosopher
 
 The Philosopher is a class that is skilled in the art of contemplation and introspection, using their wisdom and understanding to navigate the complexities of the world and gain insight into the nature of reality. They are often found in libraries, universities, and other centers of learning, seeking to understand the world through logic and reason.

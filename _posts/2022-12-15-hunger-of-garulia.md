@@ -2,7 +2,9 @@
 layout: post
 title:  "Hunger of Garulia"
 author: ali-bobby
-categories: [ polychrome, spells, evocation ]
+categories: [ polychrome, spells ]
+spell-level: 5
+spell-types: [ evocation, cleric, bard ]
 image: assets/images/spells/hunger-of-garulia.png
 summary: "The God of Hunger must be satiated"
 ---

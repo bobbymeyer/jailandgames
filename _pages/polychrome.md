@@ -108,6 +108,27 @@ There are thousands of heroes, demigods, holy trees, devos, holy monsters and ot
 {% endfor %}
 </div>
 
+---
+
+<div class="container" markdown='1'>
+## Places
+<div class='row'>
+{% for post in sorted_posts %}
+{% if post.categories contains "polychrome" and post.categories contains "places" %}
+
+<div class="card" style="width: 18rem; margin: 1rem;">
+  <img class="card-img-top" src='{{site.url}}/{{post.image}}' alt="{{post.title}}">
+  <div class="card-body">
+    <h5 class="card-title">
+      {{post.title}}
+    </h5>
+    <p>{{post.summary}}</p>
+    <a href="{{post.url}}">Read more...</a>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+</div>
 
 
 <br>

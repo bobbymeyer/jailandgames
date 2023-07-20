@@ -4,7 +4,7 @@ title:  "Ice Shackles"
 author: ali-bobby
 categories: [ polychrome, traps ]
 image: assets/images/traps/ice-shackles.png
-summary: "Sun and Sand"
+summary: "Frost bitten"
 ---
 
 In the rugged wooded hills of the Empire, two daring thieves, Kael and Lyra, embarked on a perilous mission to infiltrate the formidable castle of Hardaggen, home to The Naru.

@@ -2,8 +2,8 @@
 layout: post
 title:  "the Temple of Garulia"
 author: ali-bobby
-categories: [ polychrome, places, dungeons ]
-image: assets/images/places/temple-of-garulia.png
+categories: [ polychrome, locations, dungeons ]
+image: assets/images/locations/temple-of-garulia.png
 summary: "Denial of dreams"
 ---
 

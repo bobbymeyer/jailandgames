@@ -11,7 +11,7 @@ permalink: "/polychrome.html"
 
 <div class="row align-items-center bg-light" markdown='1'>
 <div class="col-md" markdown='1'>
-![](/assets/images/places/oda/oda-splash.png)
+![](/assets/images/locations/oda-splash.png)
 </div>
 <div class="col-md align-items-center" markdown='1'>
 
@@ -111,23 +111,16 @@ There are thousands of heroes, demigods, holy trees, devos, holy monsters and ot
 ---
 
 <div class="container" markdown='1'>
-## Places
-<div class='row'>
+## Locations
+<div class='grid-list'>
 {% for post in sorted_posts %}
-{% if post.categories contains "polychrome" and post.categories contains "places" %}
+{% if post.categories contains "polychrome" and post.categories contains "locations" %}
 
-<div class="card" style="width: 18rem; margin: 1rem;">
-  <img class="card-img-top" src='{{site.url}}/{{post.image}}' alt="{{post.title}}">
-  <div class="card-body">
-    <h5 class="card-title">
-      {{post.title}}
-    </h5>
-    <p>{{post.summary}}</p>
-    <a href="{{post.url}}">Read more...</a>
-  </div>
-</div>
+<a href="{{post.url}}">{{post.title}}</a>
+
 {% endif %}
 {% endfor %}
+
 </div>
 
 

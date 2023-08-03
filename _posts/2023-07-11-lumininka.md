@@ -2,8 +2,8 @@
 layout: post
 title:  "Lumininka"
 author: ali-bobby
-categories: [ polychrome, places ]
-image: assets/images/places/lumininka.png
+categories: [ polychrome, locations ]
+image: assets/images/locations/lumininka.png
 summary: "Sun and Sand"
 ---
 

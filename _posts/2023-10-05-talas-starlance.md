@@ -4,7 +4,7 @@ title:  "Talas' Starlance"
 author: ali-bobby
 categories: [ polychrome, equipment, magic items ]
 image: assets/images/equipment/talas-starlance.png
-summary: "Split the "
+summary: "Split the Sky"
 ---
 # Talas' Starlance
 *Melee weapon (Legendary spear), requires attunement*
